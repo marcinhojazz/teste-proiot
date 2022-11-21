@@ -13,7 +13,7 @@ export default function Header({ }: Props) {
   let [open, setOpen] = useState(false)
 
   return (
-    <header className='px-4 py-6 text-white shadow-md w-full fixed top-0 left-0 bg-[#005ac9]'>
+    <header className='px-4 py-6 text-white shadow-md w-full relative top-0 left-0 bg-[#005ac9] z-50'>
       <div className='lg:flex md:flex sm:flexx justify-between border border-[red] items-center'>
         <Logo />
         <div onClick={() => setOpen(!open)} className='absolute right-8 top-6 cursor-pointer md:hidden'>

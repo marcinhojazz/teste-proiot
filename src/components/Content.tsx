@@ -12,7 +12,7 @@ export default function Content({ }: Props) {
   const [active, setActive] = useState(false);
 
   return (
-    <div className='h-full lg:h-screen'>
+    <div className=''>
       <div className='flex justify-start items-center border px-6  py-6 space-x-12'>
         <div className='flex justify-center items-center space-x-2'>
           <span className='flex h-4 w-4'>
