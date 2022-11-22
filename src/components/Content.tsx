@@ -35,7 +35,7 @@ export default function Content({ }: Props) {
           </button>
         </div>
       </div>
-      <div className='py-16 px-12 flex flex-wrap md:justify-between justify-center gap-12'>
+      <div className='py-16 px-12 flex flex-wrap md:justify-between md:items-center justify-center gap-12'>
         <Card>
           <h2 className='border w-full text-center font-bold py-2'>
             Chart

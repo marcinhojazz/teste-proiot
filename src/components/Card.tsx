@@ -4,8 +4,10 @@ type CardProps = {
 
 export default function Card({children, ...props}: CardProps) {
   return (
-    <div className='bg-white w-full h-80 rounded-lg shadow-xl flex flex-col justify-between items-center lg:w-3/12 lg:h-3/12'>
-      {children}
+    <div className='border'>
+      <div className='h-80 w-96 flex flex-col justify-between items-center bg-white rounded-lg shadow-xl '>
+        {children}
+      </div>
     </div>
   )
 }
